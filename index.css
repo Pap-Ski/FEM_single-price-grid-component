@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  --ff-all: "Karla", sans-serif;
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-by: hsl(71, 73%, 54%);
+  --clr-lg: hsl(204, 43%, 93%);
+  --clr-gb: hsl(218, 22%, 67%);
+  --clr-wht: #fff;
+  --padding: 1.2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-all);
+}
+body {
+  background-color: var(--clr-lg);
+}
+.top,
+.pricing,
+.whyUs {
+  padding: var(--padding);
+}
+.head {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+.container {
+  margin: 5rem auto;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.top {
+  background-color: var(--clr-wht);
+}
+.top .head {
+  color: var(--clr-cyan);
+  font-weight: 700;
+}
+.top h4 {
+  color: var(--clr-by);
+}
+.top h4 {
+  margin: 1em 0;
+}
+.top p {
+  color: var(--clr-gb);
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.pricing {
+  background-color: var(--clr-cyan);
+  color: var(--clr-wht);
+  height: 30%;
+}
+
+.pricing .head {
+  margin-bottom: 1em;
+}
+
+.price {
+  border: 1px solid black;
+  margin-bottom: 0.5em;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.price span {
+  margin-bottom: 5em;
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgba(229, 239, 245, 0.6);
+}
+
+button {
+  border: 0;
+  background-color: var(--clr-by);
+  margin-top: 2.5em;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 0.3em;
+  padding: 1em;
+  color: var(--clr-wht);
+  box-shadow: 0 0 0.5em grey;
+}
+
+.whyUs {
+  background-color: hsl(179, 47%, 52%);
+  height: 33%;
+}
+
+.whyUs .head {
+  color: var(--clr-wht);
+}
+.whyUs-p {
+  color: var(--clr-lg);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
