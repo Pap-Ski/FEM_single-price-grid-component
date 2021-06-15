@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,7 +27,6 @@ Users should be able to:
 
 ![Screenshot](./Final_Work.jpg)
 
-
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-RPOc9BPYp](https://www.frontendmentor.io/solutions/single-price-grid-component-RPOc9BPYp)
@@ -41,15 +40,15 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 
-
 ### What I learned
+
 Learnt how to use `display:grid`. Though this is a very basic appliction of the property, I used it to layout the bottom part of the component. Flexbox would have been another option, but what would you gain if you do not apply anything you learn.😉
 
 ```css
- .bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 ```
 
 ### Useful resources
@@ -58,4 +57,5 @@ Learnt how to use `display:grid`. Though this is a very basic appliction of the 
 
 ## Author
 
+- LinkedIn - [Quartey-Papafio Nii Laryea](https://www.linkedin.com/in/nii-laryea-quartey-papafio-229440176/)
 - Frontend Mentor - [@Pap-Ski](https://www.frontendmentor.io/profile/Pap-Ski)
